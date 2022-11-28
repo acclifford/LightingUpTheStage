@@ -5,9 +5,9 @@ public class Flourescent extends Light {
     public Flourescent(){
         lumens = 0;
         }
-    public Flourescent(int incomingLumens) {
-        lumens = lumens;
-        }
+    public Flourescent(int lumens) {
+        this.lumens = lumens;
+    }
 
 
     @Override

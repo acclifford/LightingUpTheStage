@@ -6,8 +6,8 @@ public class Incandescent extends Light {
         lumens = 0;
     }
 
-    public Incandescent(int incomingLumens){
-        lumens = incomingLumens;
+    public Incandescent(int lumens){
+       lumens = lumens;
     }
 
 
