@@ -22,7 +22,7 @@ public class LightStrip {
             System.out.print(index6 + ": ");
             System.out.println(lightMember[index6]);
         }
-        for(int index3 = 0; index3< numberOfLights; index3++){
+        for(int index3 = 0; index3 < numberOfLights; index3++){
             totalLumens += lightMember[index3].getLumens();
         }
         System.out.println("Total lumens = " + totalLumens);

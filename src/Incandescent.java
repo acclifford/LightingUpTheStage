@@ -1,22 +1,19 @@
 public class Incandescent extends Light {
 
-    private int lumens;
+    public int lumens;
 
     public Incandescent(){
         lumens = 0;
     }
 
-    public Incandescent(int lumens){
-        this.lumens = lumens;
+    public Incandescent(int incomingLumens){
+        lumens = incomingLumens;
     }
 
-    public int getLumens() {
-        return this.lumens;
-    }
 
     @Override
     public double heatOutput(){
-       return this.lumens * 87.4;
+       return (lumens * 87.4);
     }
 
     @Override
