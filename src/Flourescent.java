@@ -6,7 +6,9 @@ public class Flourescent extends Light {
         lumens = 0;
         }
     public Flourescent(int lumens) {
+        super();
         this.lumens = lumens;
+
     }
 
 

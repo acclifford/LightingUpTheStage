@@ -17,6 +17,7 @@ public class LightStrip {
         totalFlourescent = 0;
         totalHeatOutput = 0;
     }
+
     public void display(){
         for (int index6 = 0; index6 < numberOfLights; index6++){
             System.out.print(index6 + ": ");
@@ -31,9 +32,6 @@ public class LightStrip {
             if(lightMember[index4].isFlourescent()){
                 totalFlourescent = totalFlourescent + 1;
             }
-            else if (lightMember[index4].isFlourescent() == false){
-                totalFlourescent = totalFlourescent;
-            }
         }
         System.out.println("Flourescent = " + totalFlourescent);
 
@@ -42,6 +40,7 @@ public class LightStrip {
         }
         System.out.println("Heat output = " + totalHeatOutput);
     }
+
 
 
 

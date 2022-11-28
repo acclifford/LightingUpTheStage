@@ -7,7 +7,7 @@ public class Incandescent extends Light {
     }
 
     public Incandescent(int lumens){
-       lumens = lumens;
+       this.lumens = lumens;
     }
 
 
