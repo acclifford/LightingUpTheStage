@@ -12,7 +12,7 @@ public class Flourescent extends Light {
 
     @Override
     public double heatOutput() {
-        return 0;
+        return 0.0;
     }
 
     @Override
