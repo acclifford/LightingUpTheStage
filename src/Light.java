@@ -3,7 +3,7 @@ public abstract class Light {
     //-----------------------------------------------------------------------------
     private int lumens;
     //-----------------------------------------------------------------------------
-    public Light() {
+    public Light(int lumens) {
 
         this.lumens = lumens;
     }

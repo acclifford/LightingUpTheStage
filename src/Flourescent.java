@@ -1,16 +1,9 @@
 public class Flourescent extends Light {
 
-    public int lumens;
 
-    public Flourescent(){
-        lumens = 0;
-        }
     public Flourescent(int lumens) {
-        super();
-        this.lumens = lumens;
-
+        super(lumens);
     }
-
 
     @Override
     public double heatOutput() {
