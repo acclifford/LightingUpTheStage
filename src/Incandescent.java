@@ -10,6 +10,10 @@ public class Incandescent extends Light {
         this.lumens = lumens;
     }
 
+    public int getLumens() {
+        return this.lumens;
+    }
+
     @Override
     public double heatOutput(){
        return this.lumens * 87.4;
